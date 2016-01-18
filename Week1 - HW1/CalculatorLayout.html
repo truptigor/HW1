@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator Layout</title>
+		<style>
+			.roundedborder {
+			    border-radius: 8px;
+			    border: 1px solid #CCCCCC;
+			    padding: 15px; 
+			}
+		</style>
+	</head>
+	<body>
+		<table class="roundedborder">
+			<tr>
+				<td>
+					<table cellspacing="3" cellpadding="1">
+						<tr>
+							<td colspan="5" style="padding-bottom:10px;"><input type="text" id="result" name="result" style="width:130px;" /></td>
+						</tr>
+						<tr>
+							<td colspan="5">
+								<button>Clear</button>
+								<button>=</button>
+								<button>+/-</button>
+								<button>.</button>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">
+								<button>*</button>
+								<button>/</button>
+								<button>+</button>
+								<button>-</button>
+							</td>
+						</tr>
+						<tr>
+							<td><button>1</button></td>
+							<td><button>2</button></td>
+							<td><button>3</button></td>
+							<td><button>4</button></td>
+							<td><button>5</button></td>
+						</tr>
+						<tr>
+							<td><button>6</button></td>
+							<td><button>7</button></td>
+							<td><button>8</button></td>
+							<td><button>9</button></td>
+							<td><button>0</button></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<script>
+			document.getElementById("result").focus();
+		</script>
+	</body>
+</html>
